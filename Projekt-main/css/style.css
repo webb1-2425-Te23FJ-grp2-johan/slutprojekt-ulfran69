@@ -6,7 +6,12 @@ body{
     background-color: lightgray;
 }
 .wrapper-nav{
-    
+    display: flex;
+    justify-content: space-between;
+}
+.meny{
+    display: grid;
+    grid-column: 1fr 1fr;
 }
 #logo{
     
