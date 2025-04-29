@@ -1,22 +1,28 @@
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
-body{
-    margin: 0;
-    background-color: lightgray;
+body {
+  margin: 0;
+  background-color: lightgray;
 }
-.wrapper-nav{
-    display: flex;
-    justify-content: space-between;
+.wrapper-nav {
+  display: flex;
+  justify-content: space-between;
 }
-.meny{
-    display: grid;
-    grid-column: 1fr 1fr;
+.menu {
+  padding-top: 12px;
+  margin-right: 20px;
 }
-#logo{
-    
+.menu a {
+  padding-left: 25px;
 }
-#Hkp16{
-   width: 100%; 
-   border-radius: 10px;
+.menu a {
+  text-decoration: none;
+  color: black;
+}
+#logo {
+}
+#Hkp16 {
+  width: 100%;
+  border-radius: 10px;
 }
