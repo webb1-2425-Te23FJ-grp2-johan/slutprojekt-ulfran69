@@ -5,12 +5,14 @@ body {
   margin: 0;
   background-color: lightgray;
 }
-.wrapper{
-  background-color: ;
-}
 .wrapper-nav {
   display: flex;
   justify-content: space-between;
+  background-color: white;
+}
+#logo {
+  width: 45px;
+  height: 45px;
 }
 .menu {
   padding-top: 12px;
@@ -19,14 +21,18 @@ body {
 }
 .menu a {
   padding-left: 25px;
+  margin-bottom: 0;
   text-decoration: none;
   color: black;
 }
-#logo {
-  width: 50px;
-  height: 50px;
+.wrapper {
 }
+
+
 #Hkp16 {
   width: 100%;
   border-radius: 10px;
+}
+
+@media screen and (min-width 600px) {
 }
