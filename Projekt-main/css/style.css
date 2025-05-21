@@ -33,6 +33,8 @@ body {
   width: 100%;
   border-radius: 10px;
 }
-
+#name{
+  width: 300px;
+}
 @media screen and (min-width 600px) {
 }
