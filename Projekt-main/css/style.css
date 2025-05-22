@@ -1,6 +1,14 @@
 * {
-  box-sizing: border-box;
+  box-sizing: border-box; 
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+
 }
+
+ 
+
 body {
   margin: 0;
   background-color: lightgray;
@@ -15,9 +23,9 @@ body {
   height: 45px;
 }
 .menu {
+  width: 100%;
   padding-top: 12px;
-  margin-right: 20px;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 .menu a {
   padding-left: 25px;
@@ -26,15 +34,41 @@ body {
   color: black;
 }
 .wrapper {
+  margin-top: 25px;
 }
-
-
 #Hkp16 {
   width: 100%;
   border-radius: 10px;
+  background-color: red;
+}
+.about-hkp{
+  width: 100%;
+  display: grid;
+  grid-template-areas:
+  "headline headline"
+  "txt img"
+}
+.about-hkp p{
+  margin: 0;
+}
+.headline-info{
+  grid-area: headline;
+}
+.info-txt{
+  grid-area: txt;
+}
+.info-img{
+  border-radius: 10px;
+  grid-area: img;
+}
+.img-hkp-info{
+  width: 200px;
 }
 #name{
   width: 300px;
 }
-@media screen and (min-width 600px) {
+@media screen and (min-width: 600px) {
+  #Hkp16{
+    width: 500px;
+  }
 }
