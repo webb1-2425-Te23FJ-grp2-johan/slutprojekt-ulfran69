@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box; 
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+
+}
+body {
+  margin: 0;
+  background-color: lightgray;
+}
+.wrapper-nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+#logo {
+  width: 45px;
+  height: 45px;
+}
+.menu {
+  width: 100%;
+  padding-top: 12px;
+  margin-bottom: 20px;
+}
+.menu a {
+  padding-left: 25px;
+  margin-bottom: 0;
+  text-decoration: none;
+  color: black;
+}

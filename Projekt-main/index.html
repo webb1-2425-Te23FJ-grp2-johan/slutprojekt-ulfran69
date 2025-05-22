@@ -5,9 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HKP 16 pickup</title>
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="wrapper-nav">
@@ -17,9 +20,9 @@
         </a>
       </div>
       <nav class="menu">
-        <a href="">Beställ</a>
+        <a href="#name">Beställ</a>
         <a href="">Fakta om Hkp16</a>
-        <a href="">Om oss</a>
+        <a href="/about-sida/about.html">Om oss</a>
       </nav>
     </div>
     <div class="wrapper">
@@ -57,16 +60,28 @@
         </p>
       </section>
       <section class="imgs">
-        <img src="img/flertal-hkp16.webp" alt="some hkp16 flying" id="" />
-        <img src="img/hkp16-med-besättning.webp" alt="" id="" />
+        <img
+          src="img/flertal-hkp16.webp"
+          alt="some hkp16 flying"
+          id="flertal-hkp"
+        />
+        <img
+          src="img/hkp16-med-besättning.webp"
+          alt=""
+          id="hkp-med-besättning"
+        />
       </section>
       <form action="">
         <h3>Fyll i för att beställa idag</h3>
-        <input type="text" placeholder="Ditt namn" id="name" />
-        <input type="text" placeholder="Din email" id="email" />
-        <input type="text" placeholder="Vilken tid" id="time" />
-        <input type="text" placeholder="Vart ska du hämtas" id="where" />
-        <input type="submit" id="skicka-knapp" />
+        <div class="form-div">
+          <input type="text" placeholder="Ditt namn" id="name" />
+          <input type="text" placeholder="Din email" id="email" />
+          <input type="text" placeholder="Vilken tid" id="time" />
+          <input type="text" placeholder="Vart ska du hämtas" id="where" />
+        </div>
+        <div class="send-form">
+          <input type="submit" id="send-btn" />
+        </div>
       </form>
     </div>
   </body>

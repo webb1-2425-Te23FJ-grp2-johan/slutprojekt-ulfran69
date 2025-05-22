@@ -2,13 +2,9 @@
   box-sizing: border-box; 
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
   font-style: normal;
 
 }
-
- 
-
 body {
   margin: 0;
   background-color: lightgray;
@@ -39,7 +35,6 @@ body {
 #Hkp16 {
   width: 100%;
   border-radius: 10px;
-  background-color: red;
 }
 .about-hkp{
   width: 100%;
@@ -62,10 +57,51 @@ body {
   grid-area: img;
 }
 .img-hkp-info{
-  width: 200px;
+  width: 175px;
+  height: 100%;
+}
+.imgs{
+  display: grid;
+  grid-template-rows: auto;
+} 
+ #flertal-hkp{
+  width: 280px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+}
+#hkp-med-besättning{
+  width: 280px;
+  border-radius: 10px;
+}
+form h3{
+  display: flex;
+  justify-content: center;
+}
+.form-div{
+  max-width: 390px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: column;
 }
 #name{
-  width: 300px;
+ grid-area: name;
+}
+#email{
+  grid-area: email;
+}
+#time{
+  grid-area: time;
+}
+#where{
+  grid-area: where;
+}
+#send-btn{
+  width: 100px;
+}
+.send-form{
+  display: flex;
+  justify-content: center;
 }
 @media screen and (min-width: 600px) {
   #Hkp16{
