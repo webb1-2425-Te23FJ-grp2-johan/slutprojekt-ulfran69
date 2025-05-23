@@ -11,7 +11,7 @@ body {
 }
 .wrapper-nav {
   display: flex;
-  justify-content: space-between;
+  
   background-color: darkgray;
 }
 #logo {
@@ -30,7 +30,7 @@ body {
   color: black;
 }
 .wrapper {
-  margin-top: 25px;
+  margin-top: 20px;
 }
 #Hkp16 {
   width: 100%;

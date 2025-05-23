@@ -12,7 +12,7 @@ body {
 .wrapper-nav {
   display: flex;
   justify-content: space-between;
-  background-color: white;
+  background-color: darkgrey;
 }
 #logo {
   width: 45px;
@@ -28,4 +28,21 @@ body {
   margin-bottom: 0;
   text-decoration: none;
   color: black;
+}
+.contact-info {
+  background-color: darkslategray;
+  margin-top: 10px;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.contact-info h5 {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.contact-info p {
+  margin: 5px 0;
+  font-size: 0.9em; 
 }
