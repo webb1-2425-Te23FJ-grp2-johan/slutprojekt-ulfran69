@@ -12,7 +12,7 @@ body {
 .wrapper-nav {
   display: flex;
   justify-content: space-between;
-  background-color: white;
+  background-color: darkgray;
 }
 #logo {
   width: 45px;
@@ -61,17 +61,25 @@ body {
   height: 100%;
 }
 .imgs{
-  display: grid;
-  grid-template-rows: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 } 
+.imgs img {
+  margin-bottom: 15px;
+}
  #flertal-hkp{
   width: 280px;
-  padding-bottom: 10px;
   border-radius: 10px;
 }
 #hkp-med-besättning{
   width: 280px;
   border-radius: 10px;
+}
+form{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 form h3{
   display: flex;
@@ -79,22 +87,20 @@ form h3{
 }
 .form-div{
   max-width: 390px;
-  
   display: flex;
-  justify-content: center;
-  align-items: column;
+  flex-direction: column;
 }
 #name{
- grid-area: name;
+  height: 40px;
 }
 #email{
-  grid-area: email;
+  height: 40px;
 }
 #time{
-  grid-area: time;
+  height: 40px;
 }
 #where{
-  grid-area: where;
+  height: 40px;
 }
 #send-btn{
   width: 100px;
@@ -102,6 +108,23 @@ form h3{
 .send-form{
   display: flex;
   justify-content: center;
+}
+.contact-info {
+  background-color: darkslategray;
+  margin-top: 10px;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.contact-info h5 {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.contact-info p {
+  margin: 5px 0;
+  font-size: 0.9em; 
 }
 @media screen and (min-width: 600px) {
   #Hkp16{
