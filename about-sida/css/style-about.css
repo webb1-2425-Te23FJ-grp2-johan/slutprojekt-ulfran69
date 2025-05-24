@@ -3,7 +3,16 @@
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
   font-style: normal;
-
+  
+}
+h1{
+  font-size: 1.45rem;
+}
+h2{
+  font-size: 1.1rem;
+}
+p{
+  font-size: 0.96rem;
 }
 body {
   margin: 0;
@@ -19,7 +28,6 @@ body {
   height: 45px;
 }
 .menu {
-  width: 100%;
   padding-top: 12px;
   margin-bottom: 20px;
 }

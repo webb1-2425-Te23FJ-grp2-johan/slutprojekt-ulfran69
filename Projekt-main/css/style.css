@@ -1,9 +1,8 @@
 * {
-  box-sizing: border-box; 
+  box-sizing: border-box;
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
   font-style: normal;
-
 }
 body {
   margin: 0;
@@ -11,7 +10,8 @@ body {
 }
 .wrapper-nav {
   display: flex;
-  
+  flex-direction: row;
+  justify-content: space-between;
   background-color: darkgray;
 }
 #logo {
@@ -19,8 +19,7 @@ body {
   height: 45px;
 }
 .menu {
-  width: 100%;
-  padding-top: 12px;
+  padding: 12px 15px 0 0;
   margin-bottom: 20px;
 }
 .menu a {
@@ -36,76 +35,80 @@ body {
   width: 100%;
   border-radius: 10px;
 }
-.about-hkp{
+.about-hkp {
   width: 100%;
   display: grid;
   grid-template-areas:
-  "headline headline"
-  "txt img"
+    "headline headline"
+    "txt img";
 }
-.about-hkp p{
+.about-hkp p {
   margin: 0;
 }
-.headline-info{
+.headline-info {
   grid-area: headline;
 }
-.info-txt{
+.info-txt {
   grid-area: txt;
 }
-.info-img{
+.info-img {
   border-radius: 10px;
   grid-area: img;
 }
-.img-hkp-info{
+.img-hkp-info {
   width: 175px;
   height: 100%;
 }
-.imgs{
+.imgs {
   display: flex;
   align-items: center;
   flex-direction: column;
-} 
+}
 .imgs img {
   margin-bottom: 15px;
 }
- #flertal-hkp{
+#flertal-hkp {
   width: 280px;
-  border-radius: 10px;
+  border-radius: 8px;
 }
-#hkp-med-besättning{
+#hkp-med-besättning {
   width: 280px;
-  border-radius: 10px;
+  border-radius: 8px;
 }
-form{
+#img-hkp-info-bigger {
+  width: 0;
+  height: 0;
+}
+form {
   display: flex;
   align-items: center;
   flex-direction: column;
 }
-form h3{
+form h3 {
   display: flex;
   justify-content: center;
 }
-.form-div{
+.form-div {
   max-width: 390px;
   display: flex;
   flex-direction: column;
 }
-#name{
+#name {
   height: 40px;
 }
-#email{
+#email {
   height: 40px;
 }
-#time{
+#time {
   height: 40px;
 }
-#where{
+#where {
   height: 40px;
 }
-#send-btn{
+#send-btn {
   width: 100px;
 }
-.send-form{
+.send-form {
   display: flex;
   justify-content: center;
 }
@@ -116,18 +119,47 @@ form h3{
   padding: 20px;
   text-align: center;
 }
-
 .contact-info h5 {
   margin: 0;
   margin-bottom: 10px;
 }
-
 .contact-info p {
   margin: 5px 0;
-  font-size: 0.9em; 
+  font-size: 0.9em;
 }
 @media screen and (min-width: 600px) {
-  #Hkp16{
+  .spacing-img {
+    display: flex;
+    justify-content: center;
+  }
+  #Hkp16 {
     width: 500px;
   }
+  .img-hkp-info {
+    width: 0;
+    height: 0;
+  }
+  #img-hkp-info-bigger {
+    width: 280px;
+    height: 100%;
+    border-radius: 8px;
+  }
+  .wrapper-about-service {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+  }
+  .about-hkp {
+    width: 50%;
+    margin-right: 5px;
+  }
+  .our-service {
+    width: 50%;
+  }
+  #ideen-bakom-wrapper{
+    margin: 0 20px;
+  }
+}
+@media screen and (min-width: 1200px){
+  
 }
