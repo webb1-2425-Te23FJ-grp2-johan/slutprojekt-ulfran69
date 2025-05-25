@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HKP 16 pickup</title>
+    <link rel="stylesheet" href="css/splide.min.css" />
+    <link rel="stylesheet" href="css/style-img.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="wrapper-nav">
+      <div id="logo">
+        <a href="/Projekt-main/index.html">
+          <img src="/Projekt-main/img/hkp-doodel.webp" alt="logo-HKP16" />
+        </a>
+      </div>
+      <nav class="menu">
+        <a href="/Projekt-main/index.html#name">Beställ</a>
+        <a href="splide-hkp16.html">Hkp16 bilder</a>
+        <a href="/about-sida/about.html">Om oss</a>
+      </nav>
+    </div>
+    <section class="splide" aria-label="Splide Basic HTML Example">
+      <div class="splide__track">
+        <ul class="splide__list">
+          <li class="splide__slide center">
+            <img src="/Projekt-main/img/HKP16+team.webp" alt="Bild HKP16 med soldater" class="size-img"/>
+          </li>
+          <li class="splide__slide center">
+            <img src="/Projekt-main/img/flertal-hkp16.webp" alt="some hkp16 flying" class="size-img"/>
+          </li>
+          <li class="splide__slide center">
+            <img src="/Projekt-main/img/hkp-16-carlift.webp" alt="Hkp16 lifting cars" class="size-img" />
+          </li>
+          <li class="splide__slide center">
+            <img src="/Projekt-main/img/hkp16-med-besättning.webp" alt="bild på hkp 16 med besättning" class="size-img"/>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <footer class="contact-info">
+      <h2>Kontakta oss gärna här</h2>
+      <p>Email: info@hkp16pickup.se</p>
+      <p>Telefon: 070-123 45 67</p>
+      <p>Adress: Helikoptervägen 1, 123 45 Flygstaden</p>
+    </footer>
+    <script src="js/splide.min.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var splide = new Splide(".splide");
+        splide.mount();
+      });
+    </script>
+  </body>
+</html>

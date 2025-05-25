@@ -36,6 +36,11 @@ body {
   border-radius: 10px;
   height: auto;
 }
+.info-h2{
+  width: 0;
+  margin: 0;
+  font-size: 0;
+}
 .info-hkp16-img {
   width: 0;
   margin: 0;
@@ -72,6 +77,9 @@ body {
 }
 .imgs img {
   margin-bottom: 15px;
+}
+.hidden{
+  display: none;
 }
 #flertal-hkp {
   width: 280px;
@@ -191,9 +199,12 @@ form h3 {
   }
   .info-hkp16-wrapper{
     display: grid;
+    max-width: 50%;
   }
-  .info-hkp16-wrpper h2{
-    font-size: large;
+  .info-h2{
+    width: fit-content;
+    height: fit-content;
+    font-size: 1.25rem;
   }
   .info-hkp16-img{
     width: fit-content;
@@ -204,4 +215,9 @@ form h3 {
     justify-content: space-evenly;
     flex-direction: row;
   }
+  .imgs img:hover{
+  cursor: pointer;
+  box-shadow: 8px 8px black;
+  transition: 0.4s;
+}
 }

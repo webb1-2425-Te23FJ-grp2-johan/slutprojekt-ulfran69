@@ -2,20 +2,11 @@
   box-sizing: border-box; 
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
-  font-style: normal;
+  font-style: normal; 
 }
 body {
   margin: 0;
   background-color: lightgray;
-}
-h1{
-  font-size: 1.45rem;
-}
-h2{
-  font-size: 1.1rem;
-}
-p{
-  font-size: 0.96rem;
 }
 .wrapper-nav {
   display: flex;
@@ -35,6 +26,15 @@ p{
   margin-bottom: 0;
   text-decoration: none;
   color: black;
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.size-img{
+    width: 45%;
+
 }
 .contact-info {
   background-color: darkslategray;
