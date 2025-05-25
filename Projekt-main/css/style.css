@@ -15,8 +15,8 @@ body {
   background-color: darkgray;
 }
 #logo {
-  width: 45px;
-  height: 45px;
+  width: 50px;
+  height: 50px;
 }
 .menu {
   padding: 12px 15px 0 0;
@@ -34,6 +34,12 @@ body {
 #Hkp16 {
   width: 100%;
   border-radius: 10px;
+  height: auto;
+}
+.info-hkp16-img {
+  width: 0;
+  margin: 0;
+  font-size: 0;
 }
 .about-hkp {
   width: 100%;
@@ -94,19 +100,20 @@ form h3 {
   flex-direction: column;
 }
 #name {
-  height: 40px;
+  height: 60px;
 }
 #email {
-  height: 40px;
+  height: 60px;
 }
 #time {
-  height: 40px;
+  height: 60px;
 }
 #where {
-  height: 40px;
+  height: 60px;
 }
 #send-btn {
   width: 100px;
+  height: 40px;
 }
 .send-form {
   display: flex;
@@ -128,6 +135,15 @@ form h3 {
   font-size: 0.9em;
 }
 @media screen and (min-width: 600px) {
+  body{
+    margin: 0;
+    padding: 0 25px;
+  }
+  .wrapper {
+    background-color: white;
+    margin: 0;
+    padding: 10px 0;
+  }
   .spacing-img {
     display: flex;
     justify-content: center;
@@ -156,10 +172,36 @@ form h3 {
   .our-service {
     width: 50%;
   }
-  #ideen-bakom-wrapper{
+  #ideen-bakom-wrapper {
     margin: 0 20px;
   }
+  .contact-info {
+    margin: 0;
+    padding: 10px 0;
+  }
 }
-@media screen and (min-width: 1200px){
-  
+@media screen and (min-width: 1200px) {
+  body {
+    padding: 0 100px;
+  }
+  .hkp16-img-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 12px;
+  }
+  .info-hkp16-wrapper{
+    display: grid;
+  }
+  .info-hkp16-wrpper h2{
+    font-size: large;
+  }
+  .info-hkp16-img{
+    width: fit-content;
+    height: fit-content;
+    font-size: medium;
+  }
+  .imgs {
+    justify-content: space-evenly;
+    flex-direction: row;
+  }
 }
